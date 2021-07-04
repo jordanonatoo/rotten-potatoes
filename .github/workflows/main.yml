@@ -34,6 +34,6 @@ jobs:
           push: true
           tags: |
             jordanonatoo/rotten-potatoes:latest
-            jordanonatoo/rotten-potatoes:%{{ github.run_number }}
+            jordanonatoo/rotten-potatoes:${{ github.run_number }}
             
      
